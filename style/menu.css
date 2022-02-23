@@ -1,0 +1,45 @@
+header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#menu_logo {
+	height: 80px;
+	display: block;
+	float: left;
+}
+
+nav.menu {
+	display: inline-block;
+}
+
+ul.menu {
+	list-style: none;
+}
+
+ul.menu, ul.menu li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.menu li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul.menu li:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 300px) {
+    header {
+		margin-bottom: 15px;
+	}
+    
+	ul.menu li {
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}

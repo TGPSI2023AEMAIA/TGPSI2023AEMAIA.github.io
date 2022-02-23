@@ -1,0 +1,33 @@
+h1.staff {
+    margin-left: 4%;
+	margin-right: 4%;
+}
+
+div.staff {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+@media screen and (min-width: 1000px) {
+    h1.staff {
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+
+	div.staff {
+		margin-left: 16%;
+		margin-right: 16%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+    h1.staff {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+	div.staff {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}

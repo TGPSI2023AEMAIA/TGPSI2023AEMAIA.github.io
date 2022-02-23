@@ -1,0 +1,61 @@
+div.content {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+div.theme {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+
+div.theme h1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+}
+
+#renewable_energy_sources, #energetic_efficiency, #sustainable_production_storage, #next_generation_eu {
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#renewable_energy_sources {
+	background-image: url("../img/renewable_energy_sources2.jpg");
+}
+
+#energetic_efficiency {
+	background-image: url("../img/energetic_efficiency2.jpg");
+}
+
+#sustainable_production_storage {
+	background-image: url("../img/sustainable_production_storage2.jpg");
+}
+
+#next_generation_eu {
+	background-image: url("../img/next_generation_eu2.jpg");
+}
+
+@media screen and (min-width: 1000px) {
+	div.content {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	div.theme {
+		margin-left: 16%;
+		margin-right: 16%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	div.content {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	div.theme {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: #EBFAEB;
+}
+
+h1 {
+    color: #009933;
+}
+
+h2, p, li, a {
+    color: #33CC33;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
